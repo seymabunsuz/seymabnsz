@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+padding: 0;
+
+}
+
+.container{
+    background: url(harita.jpg);
+    height: 950px;
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.container .navbar{
+    width: 100%;
+    height: 100px;
+    background: rgb(243, 243, 243);
+ 
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 50px;
+    height: 45px;
+
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family:fantasy ;
+    color: rgb(41, 43, 46);
+    font-style: italic;
+    
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 80px;
+   
+}
+
+.navbar ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 6px 13px;
+    font-family: fantasy;
+    transition: 0.5s;
+    
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgba(133, 0, 0, 0.548);
+border-radius: 50px;
+
+}
+
+.container .center{
+    margin-top: 20px;
+    margin-left: 30px;
+    transform: translate(-50%-50%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    user-select: none;
+    width: 40px;
+
+}
+
+.center h1{
+    color: rgb(133, 0, 0);
+    font-size: 40px;
+   font-style: italic;
+
+}
+
+.center .buttons{
+    margin: 35px 14px;
+
+}
+
+.buttons button{
+    height: 30px;
+    width: 120px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: rgb(133, 0, 0);
+    background: rgb(114, 113, 113);
+    border: solid 1px rgb(133, 0, 0);
+    cursor: pointer;
+    outline: none;
+    border-radius: 50px;
+    transition: 0.3s;
+
+}
+
+.buttons button:hover{
+    background: rgb(68, 68, 68);
+    
+}
